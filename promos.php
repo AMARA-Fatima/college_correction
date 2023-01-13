@@ -1,4 +1,6 @@
 <?php
+
+include("assets/inc/head.php");
 // inclusion de la class Eleve 
 require_once("models/promo.php");
 // appel de la methode reaAll() de notre classe Eleve, qui nous permet de charger la liste de tous les eleves
@@ -19,12 +21,15 @@ include("assets/inc/header.php")
     <h1>Promos</h1>
     <table class="table text-white">
         <tr>
-            <th>Nom</th>
             <th>Niveau</th>
-            <th>Id_classe</th>
-            <th>Id_professeur</th>
-            <th>Prof_principal</th>
+            <th>Nom</th>
+            <th>Nom P.P.</th>
+            <th>Prenom P.P.</th>
+            <th>Email</th>
+            <th>Action</th>
         </tr>
+
+        <!-- afficher les infos de chaque promo avec son professeur principal avec la boucle foreach -->
         <?php
         foreach ($promos as $promo) 
         {

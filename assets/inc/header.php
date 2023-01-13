@@ -19,7 +19,7 @@
                                 <a href="/exercice_et_cours_POEC\sitePdo\promos.php" class="nav-link active">Promos</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../admin/listCompetence.php" class="nav-link active">D</a>
+                                <a href="/exercice_et_cours_POEC\sitePdo\promoDetail.php" class="nav-link active">Détail Promo</a>
                             </li>
                             <li class="nav-item">
                                 <a href="../admin/createCompetence.php" class="nav-link active">E</a>
